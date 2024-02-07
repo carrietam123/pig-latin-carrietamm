@@ -50,9 +50,9 @@ return i;
 		    if(word.substring( 0,1).equals ("e") || word.substring( 0,1).equals ("a") || word.substring( 0,1).equals ("i") ||word.substring( 0,1).equals ("o") ||word.substring(0,1).equals ("u") ){
 			return(sWord + "way");}
 		 for(int i = 0; i < word.length(); i++){
-   			 if(word.substring( i,i+1).!equals ("e") || word.substring( i,i+1).!equals ("a") || word.substring( i,i+1).!equals ("i") ||word.substring( i,i+1).!equals ("o") ||
-			    word.substring( i,i+1).!equals ("u") )
+   			 if(word.substring( i,i+1).!equals ("e") || word.substring( i,i+1).!equals ("a") || word.substring( i,i+1).!equals ("i") ||word.substring( i,i+1).!equals ("o") || word.substring( i,i+1).!equals ("u") ){
     	return sWord + "ay";}
+		 }
 	    
 		 }
     }
