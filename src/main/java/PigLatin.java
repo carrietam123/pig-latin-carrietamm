@@ -50,7 +50,7 @@ return i;
 	if(sWord.substring( 0,1).equals ("e") || sWord.substring( 0,1).equals ("a") || sWord.substring( 0,1).equals ("i") ||sWord.substring( 0,1).equals ("o") ||sWord.substring(0,1).equals ("u") ){
 			return(sWord + "way");}
 		 for(int i = 0; i < word.length(); i++){
-   			 if(sWord.substring( i,i+1).!equals ("e") || sWord.substring( i,i+1).!equals ("a") || sWord.substring( i,i+1).!equals ("i") ||sWord.substring( i,i+1).!equals ("o") || sWord.substring( i,i+1).!equals ("u") ){
+   			 if(!sWord.substring( i,i+1).equals ("e") || !sWord.substring( i,i+1).equals ("a") || !sWord.substring( i,i+1).equals ("i") ||!sWord.substring( i,i+1).equals ("o") || !sWord.substring( i,i+1).equals ("u") ){
     	return sWord + "ay";}
 		 }
 	    
